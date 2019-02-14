@@ -6,6 +6,7 @@
 
     <groupId>com.taras.homework</groupId>
     <artifactId>HomeWork</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <build>
@@ -20,6 +21,9 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>module_hw</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
